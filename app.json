@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "pi-mobile",
-    "slug": "pi-mobile",
+    "name": "food-menu",
+    "slug": "food-menu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,7 +14,7 @@
         "NSBluetoothAlwaysUsageDescription": "Pi-Sense needs Bluetooth access to connect to your wearable device.",
         "NSBluetoothPeripheralUsageDescription": "This app uses Bluetooth to connect to nearby wearables."
       },
-      "bundleIdentifier": "com.anonymous.pimobile"
+      "bundleIdentifier": "com.anonymous.foodmenu"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,7 +31,7 @@
         "android.permission.BLUETOOTH_ADMIN",
         "android.permission.BLUETOOTH_CONNECT"
       ],
-      "package": "com.anonymous.pimobile"
+      "package": "com.anonymous.foodmenu"
     },
     "web": {
       "bundler": "metro",
@@ -59,7 +59,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "4320ae0c-620a-4805-90e7-3aa88c4c5d66"
+        "projectId": "0f8a6d76-a492-4028-94ec-48297f51ae6c"
       }
     }
   }

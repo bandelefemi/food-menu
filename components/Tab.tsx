@@ -33,7 +33,7 @@ const Tab = () => {
           top: 0,
           left: 0,
           height: '100%',
-          width: '50%',
+          width: '45%',
           borderRadius: 9999,
           backgroundColor: 'black',
         }}

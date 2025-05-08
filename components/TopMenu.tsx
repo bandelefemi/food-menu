@@ -22,7 +22,7 @@ const TopMenu = () => {
             imageStyle={{ borderRadius: 24 }}
           >
             <View className="flex-1 justify-end">
-              <BlurView intensity={90} className="h-20  rounded-b-3xl p-3 flex-row justify-between items-center">
+              <BlurView tint='light' intensity={90} className="h-20  rounded-b-3xl p-3 flex-row justify-between items-center">
                 <View className="w-2/3">
                   <Text className="text-sm text-black" numberOfLines={2}>
                     {item.title}

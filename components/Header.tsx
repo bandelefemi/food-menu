@@ -1,4 +1,4 @@
-import { View, Text, StatusBar, Image } from 'react-native'
+import { View, Text, StatusBar, Image, Platform } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 import Feather from '@expo/vector-icons/Feather';
@@ -9,7 +9,12 @@ const Header = () => {
   return (
     <View>
       <StatusBar barStyle="dark-content" backgroundColor="transparent" translucent />
-      <View className=' mt-10 h-20 p-5 flex-row items-end '>
+      <View 
+        style={{
+          marginTop: Platform.OS === 'ios'? 30 : 0,
+        }} 
+        className=' h-20 p-5 flex-row items-end '
+      >
         <View className=' flex-row w-full justify-between items-center'>
           <Link href={'/'}>
             <Feather name="chevron-left" size={20} color="black" className='' />
